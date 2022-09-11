@@ -1,0 +1,11 @@
+{
+  "name": "@v2-lib/vue.spa.plugin",
+  "version": "9.0.1",
+  "private": false,
+  "author": "zhanghaixian@agree.com.cn",
+  "description": "pc端Vue版SPA的插件",
+  "main": "dist/index.umd.min.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,1 @@
+{"name":"@v2-pipe/store","main":"index.js","docs":{"desp":"vuex封装api","name":"store","icon":"","category":"api","label":"","labelType":"front","belongTo":"function","hasReturn":false,"returnValue":{"name":"","desp":"","details":"","type":"string","defaultValue":""},"params":[]},"category":"api","description":"vuex封装api","version":"6.0.0"}

@@ -1,0 +1,12 @@
+{
+  "name": "@micro-page/data-source-manager",
+  "version": "1.0.0",
+  "main": "index.vue",
+  "author": "zzx",
+  "description": "三方数据源",
+  "keywords": [
+    "三方数据源"
+  ],
+  "category": "page",
+  "license": "ISC"
+}

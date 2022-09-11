@@ -1,0 +1,82 @@
+{
+  "docs": {
+    "name": "级联选择",
+    "detail": "级联选择",
+    "href": "v2-a-cascader",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "schemaType": "ALCAP_LIST",
+    "option": [
+      {
+        "name": "entityId",
+        "codeLessType":"dto",
+        "desp": "实体",
+        "type": "string_dto",
+        "details": "实体",
+        "defaultValue": ""
+      },
+      {
+        "name": "placeholder",
+        "desp": "输入框占位文本",
+        "type": "string_input",
+        "details": "输入框占位文本",
+        "defaultValue": "请选择"
+      },
+      {
+        "name": "value",
+        "desp": "选择框内容",
+        "type": "string_input",
+        "details": "选择框内容",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "label",
+        "codeLessType":"label",
+        "desp": "显示字段",
+        "type": "string_label",
+        "details": "显示字段",
+        "defaultValue": ""
+      },
+      {
+        "name": "labelValue",
+        "codeLessType":"labelValue",
+        "desp": "显示字段值",
+        "type": "string_label",
+        "details": "显示字段值",
+        "defaultValue": ""
+      },
+      {
+        "name": "parentId",
+        "codeLessType":"parentId",
+        "desp": "父字段",
+        "type": "string_label",
+        "details": "父字段",
+        "defaultValue": ""
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-cascader",
+  "version": "1.0.0",
+  "description": "级联选择"
+}

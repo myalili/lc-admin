@@ -1,0 +1,41 @@
+{
+    "docs": {
+        "name": "待办任务",
+        "detail": "待办任务",
+        "href": "v2-a-work-agency",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept": [
+            "workbench",
+            "page"
+        ],
+        "option": [
+            {
+                "type": "custom_component",
+                "name": "config",
+                "defaultValue": {
+                    "title": "",
+                    "titleIcon": "",
+                    "viewAllPage": {},
+                    "entityId": "",
+                    "fields": {
+                        "titleField": {},
+                        "statusField": {},
+                        "createTimeField": {},
+                        "taskDespField": {}
+                    }
+                },
+                "component": "v2-a-work-agency-edit",
+                "desp": "自定义配置",
+                "first": true,
+                "details": "自定义配置"
+            }
+        ],
+        "slot": [],
+        "events": []
+    },
+    "description": "待办任务",
+    "name": "@alcap-component/v2-a-work-agency",
+    "version": "1.0.0"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-dialog-input-pic",
+	"version": "1.0.0",
+	"description": "图片列表",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "base",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "图片列表",
+		"href": "codeless-dialog-input-pic",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

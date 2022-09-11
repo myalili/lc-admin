@@ -1,0 +1,15 @@
+{
+  "docs": {
+        "name": "快捷入口配置",
+        "detail": "快捷入口配置",
+        "href": "v2-a-work-entrance-edit",
+        "__wrapper": "v2cpt",
+        "icon": "icontongyong",
+        "option": [],
+        "slot": [],
+        "events": []
+  },
+  "description": "快捷入口配置",
+  "name": "@alcap-component/v2-a-work-entrance-edit",
+  "version": "1.0.0"
+}

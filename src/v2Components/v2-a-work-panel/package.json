@@ -1,0 +1,35 @@
+{
+    "docs": {
+        "name": "面板",
+        "detail": "面板",
+        "href": "v2-a-work-panel",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept": [
+            "workbench", "page" 
+        ],
+        "option": [
+            {
+                "type": "custom_component",
+                "name": "config",
+                "defaultValue": {
+                    "title": "",
+                    "active": "",
+                    "morePage": {},
+                    "tabs": []
+                },
+                "component": "v2-a-work-panel-edit",
+                "desp": "自定义配置",
+                "first": true,
+                "details": "自定义配置"
+            }
+        ],
+        "slot": [],
+        "events": []
+    },
+    "author": "lvchengzhang@agree.com.cn",
+    "name": "@alcap-component/v2-a-work-panel",
+    "version": "1.0.0",
+    "description": "面板"
+}

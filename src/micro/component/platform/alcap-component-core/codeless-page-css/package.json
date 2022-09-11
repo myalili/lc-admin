@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-page-css",
+	"version": "1.0.0",
+	"description": "页面样式",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "页面样式",
+		"href": "codeless-page-css",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

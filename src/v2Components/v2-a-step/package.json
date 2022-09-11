@@ -1,0 +1,61 @@
+{
+  "docs": {
+    "name": "步骤条",
+    "detail": "步骤条",
+    "href": "v2-a-step",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "schemaType": "ALCAP_LIST",
+    "accept": [
+      "page"
+    ],
+    "option": [
+      {
+        "name": "value",
+        "desp": "当前步骤",
+        "type": "string_input",
+        "details": "当前步骤",
+        "defaultValue": 1,
+        "sync": true
+      },
+      {
+        "name": "stepArr",
+        "desp": "步骤",
+        "type": "array",
+        "details": "步骤",
+        "defaultValue": [],
+        "attrInEachElement": [
+          {
+            "name": "title",
+            "desp": "标题",
+            "defaultValue": "",
+            "type": "string_input"
+          }
+        ]
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "width": "100%",
+      "height": "100px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-step",
+  "version": "1.0.0",
+  "description": "步骤条"
+}

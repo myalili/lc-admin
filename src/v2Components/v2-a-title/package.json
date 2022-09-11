@@ -1,0 +1,105 @@
+{
+  "docs": {
+    "name": "标题",
+    "detail": "标题",
+    "href": "v2-a-title",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "titleType",
+        "desp": "标题级别",
+        "type": "string_select",
+        "details": "标题类型",
+        "defaultValue": "h1",
+        "despArray": [
+          "3级标题",
+          "2级标题",
+          "1级标题"
+        ],
+        "doc": "#",
+        "valueArray": [
+          "h3",
+          "h2",
+          "h1"
+        ]
+      },
+      {
+        "name": "color",
+        "desp": "标题颜色",
+        "type": "colorPicker",
+        "details": "标题颜色",
+        "defaultValue": "#000000"
+      },
+      {
+        "name": "title",
+        "desp": "标题内容",
+        "type": "string_input",
+        "details": "标题内容",
+        "defaultValue": "标题"
+      },
+      {
+        "name": "titleMode",
+        "desp": "模式",
+        "type": "string_select",
+        "details": "模式",
+        "defaultValue": "1",
+        "despArray": [
+          "模式一",
+          "模式二"
+        ],
+        "doc": "#",
+        "valueArray": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "name": "dialogType",
+        "desp": "弹窗类型",
+        "type": "string_select",
+        "details": "模式二下有效，可选icon或者图片",
+        "defaultValue": "icon",
+        "despArray": [
+          "图标",
+          "图片"
+        ],
+        "doc": "#",
+        "valueArray": [
+          "icon",
+          "picture"
+        ]
+      },
+      {
+        "name": "icon",
+        "desp": "图标内容",
+        "type": "dialog_input",
+        "dialogType": "icon",
+        "details": "图标内容",
+        "defaultValue": "",
+        
+        "require":{
+          "dataType":"icon"
+        }
+      }, 
+      {
+        "name": "pic",
+        "desp": "图片内容",
+        "type": "dialog_input",
+        "dialogType": "picture",
+        "details": "图片内容",
+        "defaultValue": "",
+        "require":{
+          "dataType":"picture"
+        }
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "description": "标题",
+  "name": "@alcap-component/v2-a-title",
+  "version": "1.0.0"
+}

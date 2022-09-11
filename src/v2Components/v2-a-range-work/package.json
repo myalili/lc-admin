@@ -1,0 +1,41 @@
+{
+  "docs": {
+    "name": "工作日组件",
+    "detail": "工作日组件",
+    "href": "v2-a-range-work",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": [
+      "page"
+    ],
+    "option": [
+      {
+        "name": "value",
+        "desp": "工作日期",
+        "type": "string_input",
+        "details": "工作日期",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "disabledDate",
+        "desp": "不可选择的日期",
+        "type": "string_input",
+        "details": "不可选择的日期",
+        "defaultValue": ""
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "description": "工作日组件",
+  "name": "@alcap-component/v2-a-range-work",
+  "version": "1.0.0"
+}

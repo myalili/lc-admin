@@ -1,0 +1,12 @@
+{
+	"name": "@micro-pipe-platform/alcap-pipe-business",
+	"version": "1.0.0",
+	"description": "低代码平台级公共方法包",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {}
+}

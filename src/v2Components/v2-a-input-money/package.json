@@ -1,0 +1,42 @@
+{
+  "docs": {
+    "name": "金额输入框",
+    "detail": "金额输入框",
+    "href": "v2-a-input-money",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "value",
+        "desp": "输入框内容",
+        "type": "string_input",
+        "details": "输入框内容",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhanghaixian@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-input-money",
+  "version": "1.0.0",
+  "description": "金额输入框"
+}

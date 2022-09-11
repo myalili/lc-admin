@@ -1,0 +1,32 @@
+{
+    "name": "@micro-component-plaform/codeless-img-select-ctn",
+    "version": "1.0.0",
+    "description": "图片选择组件",
+    "keywords": [],
+    "main": "index.vue",
+    "scripts": {},
+    "author": "",
+    "platform": [
+        "*"
+    ],
+    "project": [
+        "*"
+    ],
+    "category": "base",
+    "docs": {
+        "__wrapper": "v2cpt",
+        "name": "图片选择组件",
+        "href": "codeless-img-select-ctn",
+        "author": "",
+        "icon": "",
+        "option": [],
+        "defaultOptions": [],
+        "events": [],
+        "slot": [],
+        "css": {},
+        "slots": []
+    },
+    "dependencies": {},
+    "peerDependencies": {},
+    "license": "ISC"
+}

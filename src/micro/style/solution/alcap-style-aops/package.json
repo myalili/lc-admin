@@ -1,0 +1,12 @@
+{
+	"name": "@micro-style-solution/alcap-stytle-aops",
+	"version": "1.0.0",
+	"description": "低代码平台aops公共样式库",
+	"main": "index.css",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {}
+}

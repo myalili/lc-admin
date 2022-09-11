@@ -1,0 +1,39 @@
+{
+    "docs": {
+        "name": "资料下载",
+        "detail": "资料下载",
+        "href": "v2-a-work-files",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept": [
+            "workbench", "page" 
+        ],
+        "option": [
+            {
+                "type": "custom_component",
+                "name": "config",
+                "defaultValue": {
+                    "title": "",
+                    "titleIcon": "",
+                    "viewAllPage": {},
+                    "entityId": "",
+                    "fields": {
+                        "contentField": {},
+                        "iconField": {},
+                        "createTimeField": {}
+                    }
+                },
+                "component": "v2-a-work-files-edit",
+                "desp": "自定义配置",
+                "first": true,
+                "details": "自定义配置"
+            }
+        ],
+        "slot": [],
+        "events": []
+    },
+    "description": "资料下载",
+    "name": "@alcap-component/v2-a-work-files",
+    "version": "1.0.0"
+}

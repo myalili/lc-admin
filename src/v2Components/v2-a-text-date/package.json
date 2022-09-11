@@ -1,0 +1,58 @@
+{
+  "docs": {
+    "name": "时间文本",
+    "detail": "时间文本",
+    "href": "v2-a-text-date",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": [
+      "page"
+    ],
+    "option": [
+      {
+        "name": "value",
+        "desp": "文本内容",
+        "type": "string_input",
+        "details": "文本内容",
+        "defaultValue": 1,
+        "sync": true
+      },
+      {
+        "name": "fontSize",
+        "desp": "文本字号",
+        "type": "string_input",
+        "details": "文本字号",
+        "defaultValue": "14px"
+      },
+      {
+        "name": "color",
+        "desp": "文本颜色",
+        "type": "colorPicker",
+        "details": "文本颜色",
+        "defaultValue": "#000000"
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lvchengzhang@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-text-date",
+  "version": "1.0.0",
+  "description": "时间文本"
+}

@@ -1,0 +1,36 @@
+{
+  "docs": {
+    "name": "上传文本",
+    "detail": "上传文本",
+    "href": "v2-a-text-upload",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": [
+      "page"
+    ],
+    "option": [
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhanghaixian@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-text-upload",
+  "version": "1.0.0",
+  "description": "上传文本"
+}

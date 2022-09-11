@@ -1,0 +1,41 @@
+{
+	"name": "@micro-component-solution/aops-copy-ctn",
+	"version": "1.0.0",
+	"description": "aops复制容器组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": [
+		"*"
+	],
+	"project": [
+		"*"
+	],
+	"category": "base",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "aops复制容器组件",
+		"href": "aops-copy-ctn",
+		"author": "",
+		"icon": "",
+		"option": [
+			{
+				"name": "content",
+				"desp": "",
+				"type": [
+					"string_input"
+				],
+				"defaultValue": "复制"
+			}
+		],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {},
+		"slots": []
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

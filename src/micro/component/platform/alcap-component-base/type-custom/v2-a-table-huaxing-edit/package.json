@@ -1,0 +1,25 @@
+{
+  "docs": {
+    "name": "表格编辑",
+    "detail": "表格编辑",
+    "href": "v2-a-table-huaxing-edit",
+    "__wrapper": "v2cpt",
+    "type": "edit",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "schemaType": "retrieve",
+    "option": [],
+    "slot": [],
+    "events": []
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-table-huaxing-edit",
+  "version": "1.0.0",
+  "description": "表格"
+}

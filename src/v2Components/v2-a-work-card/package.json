@@ -1,0 +1,26 @@
+{
+  "docs": {
+        "name": "待办数",
+        "detail": "待办数",
+        "href": "v2-a-work-card",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept":[ "workbench", "page" ],
+        "option": [
+              {
+                "name": "dataSource",
+                "desp": "数据",
+                "type": "string_input",
+                "details": "数据",
+                "defaultValue": ""
+              }
+        ],
+        "slot": [],
+        "events": []
+  },
+  "description": "待办数",
+  "name": "@alcap-component/v2-a-work-card",
+  "version": "1.0.0"
+
+}

@@ -1,0 +1,25 @@
+{
+  "docs": {
+    "name": "视频",
+    "detail": "视频",
+    "href": "v2-a-video",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "src",
+        "desp": "视频地址",
+        "type": "dialog_input",
+        "details": "视频地址",
+        "defaultValue": ""
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "description": "视频",
+  "name": "@alcap-component/v2-a-video",
+  "version": "1.0.0"
+}

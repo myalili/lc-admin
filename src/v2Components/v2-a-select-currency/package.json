@@ -1,0 +1,33 @@
+{
+  "docs": {
+    "name": "币种组件",
+    "detail": "币种组件",
+    "href": "v2-a-select-currency",
+    "__wrapper": "v2cpt",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "schemaType": "ALCAP_LIST",
+    "option": [
+      {
+        "name": "entityId",
+        "codeLessType": "dto",
+        "desp": "实体",
+        "type": "string_dto",
+        "details": "实体",
+        "defaultValue": ""
+      },
+      {
+        "name": "options",
+        "desp": "options 数据",
+        "type": "string_input",
+        "details": "options 数据，如果设置则不需要手动构造 selectOption 节点 array<{value, label, [disabled, key, title]}>",
+        "defaultValue": ""
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "description": "币种组件",
+  "name": "@alcap-component/v2-a-select-currency",
+  "version": "1.0.0"
+}

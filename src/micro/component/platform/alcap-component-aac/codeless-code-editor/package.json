@@ -1,0 +1,32 @@
+{
+    "name": "@micro-component-plaform/codeless-code-editor",
+    "version": "1.0.0",
+    "description": "代码框组件",
+    "keywords": [],
+    "main": "index.vue",
+    "scripts": {},
+    "author": "",
+    "platform": [
+        "*"
+    ],
+    "project": [
+        "*"
+    ],
+    "category": "base",
+    "docs": {
+        "__wrapper": "v2cpt",
+        "name": "代码框组件",
+        "href": "codeless-code-editor",
+        "author": "",
+        "icon": "",
+        "option": [],
+        "defaultOptions": [],
+        "events": [],
+        "slot": [],
+        "css": {},
+        "slots": []
+    },
+    "dependencies": {},
+    "peerDependencies": {},
+    "license": "ISC"
+}

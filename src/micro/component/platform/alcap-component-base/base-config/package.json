@@ -1,0 +1,32 @@
+{
+    "name": "@micro-component-plaform/base-config",
+    "version": "1.0.0",
+    "description": "编辑器组件",
+    "keywords": [],
+    "main": "index.vue",
+    "scripts": {},
+    "author": "",
+    "platform": [
+        "*"
+    ],
+    "project": [
+        "*"
+    ],
+    "category": "base",
+    "docs": {
+        "__wrapper": "v2cpt",
+        "name": "编辑器组件",
+        "href": "base-config",
+        "author": "",
+        "icon": "",
+        "option": [],
+        "defaultOptions": [],
+        "events": [],
+        "slot": [],
+        "css": {},
+        "slots": []
+    },
+    "dependencies": {},
+    "peerDependencies": {},
+    "license": "ISC"
+}

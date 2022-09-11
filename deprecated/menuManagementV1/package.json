@@ -1,0 +1,18 @@
+{
+	"name": "@microPage-page/menuManagement",
+	"version": "1.0.0",
+	"description": "菜单管理页面",
+	"main": "index.vue",
+	"keywords": [
+		""
+	],
+	"category": "page",
+	"author": "zengmeiling",
+	"screenshots": [
+		""
+	],
+	"license": "ISC",
+	"dependencies": {
+		"@v2-lib/vue.spa.plugin": "^8.0.1"
+	}
+}

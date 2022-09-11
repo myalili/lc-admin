@@ -1,0 +1,25 @@
+{
+    "name": "@v2-pipe/des",
+    "main": "index.js",
+    "docs": {
+        "desp": "des加解密算法",
+        "name": "des",
+        "icon": "",
+        "category": "EncryptionAndDecryption",
+        "label": "",
+        "labelType": "front",
+        "belongTo": "function",
+        "hasReturn": false,
+        "returnValue": {
+            "name": "",
+            "desp": "",
+            "details": "",
+            "type": "string",
+            "defaultValue": ""
+        },
+        "params": []
+    },
+    "category": "EncryptionAndDecryption",
+    "description": "des加解密算法",
+    "version": "6.0.0"
+}

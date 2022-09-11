@@ -1,0 +1,18 @@
+{
+	"name": "@micro-page/tenantManagement",
+	"version": "1.0.0",
+	"description": "租户管理页面",
+	"main": "index.vue",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "wubingyu",
+	"license": "ISC",
+	"AParams": {},
+	"microSupport": {
+		"js": [],
+		"css": []
+	},
+	"dependencies": {},
+	"peerDependencies": {}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "@micro-pipe-platform/alcap-api-aac",
+	"version": "1.0.0",
+	"description": "认证中心api请求定义",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {}
+}

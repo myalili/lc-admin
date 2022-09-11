@@ -1,0 +1,47 @@
+{
+    "docs": {
+        "name": "消息通知",
+        "detail": "消息通知",
+        "href": "v2-a-work-notice",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept": [
+            "workbench", "page" 
+        ],
+        "option": [
+            {
+                "type": "custom_component",
+                "name": "config",
+                "defaultValue": {
+                    "title": "",
+                    "titleIcon": "",
+                    "contentIcon": "",
+                    "contentBgColor": "",
+                    "viewAllPage": {},
+                    "entityId": "",
+                    "fields": {
+                        "contentField": {},
+                        "iconField": {},
+                        "createTimeField": {}
+                    }
+                },
+                "component": "v2-a-work-notice-edit",
+                "desp": "自定义配置",
+                "first": true,
+                "details": "自定义配置"
+            },
+            {
+              "name": "page",
+              "desp": "页面",
+              "type": "string_page",
+              "defaultValue": {}
+            }
+        ],
+        "slot": [],
+        "events": []
+    },
+    "description": "消息通知",
+    "name": "@alcap-component/v2-a-work-notice",
+    "version": "1.0.0"
+}

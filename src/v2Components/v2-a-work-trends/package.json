@@ -1,0 +1,19 @@
+{
+    "docs": {
+        "name": "处理趋势",
+        "detail": "处理趋势",
+        "href": "v2-a-work-trends",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept": [
+            "workbench", "page" 
+        ],
+        "option": [],
+        "slot": [],
+        "events": []
+    },
+    "description": "处理趋势",
+    "name": "@alcap-component/v2-a-work-trends",
+    "version": "1.0.0"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-back",
+	"version": "1.0.0",
+	"description": "返回组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "返回组件",
+		"href": "codeless-back",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

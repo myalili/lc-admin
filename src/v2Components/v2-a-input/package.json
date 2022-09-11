@@ -1,0 +1,70 @@
+{
+  "docs": {
+    "name": "输入框",
+    "detail": "输入框",
+    "href": "v2-a-input",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "maxLength",
+        "desp": "最大长度",
+        "type": "string_input",
+        "details": "最大长度",
+        "defaultValue": "255"
+      },
+      {
+        "name": "type",
+        "desp": "声明 input 类型",
+        "type": "string_input",
+        "details": "声明 input 类型，同原生 input 标签的 type 属性",
+        "defaultValue": "text"
+      },
+      {
+        "name": "value",
+        "desp": "输入框内容",
+        "type": "string_input",
+        "details": "输入框内容",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "disabled",
+        "desp": "是否禁用",
+        "type": "boolean",
+        "details": "是否禁用状态，默认为 false",
+        "defaultValue": false
+      },
+      {
+        "name": "placeholder",
+        "desp": "输入框占位文本",
+        "type": "string_input",
+        "details": "输入框占位文本",
+        "defaultValue": "请输入"
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-input",
+  "version": "1.0.0",
+  "description": "输入框"
+}

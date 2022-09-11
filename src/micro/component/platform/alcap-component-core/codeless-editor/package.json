@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-editor",
+	"version": "1.0.0",
+	"description": "富文本编辑组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "富文本编辑组件",
+		"href": "codeless-editor",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

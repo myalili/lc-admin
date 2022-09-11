@@ -1,0 +1,50 @@
+{
+  "docs": {
+    "name": "树",
+    "detail": "树",
+    "href": "v2-a-tree",
+    "__wrapper": "v2cpt",
+    "type": "preset",
+    "icon": "icontongyong",
+    "accept": [
+      "page"
+    ],
+    "schemaType": "ALCAP_LIST",
+    "option": [
+      {
+        "name": "entityId",
+        "codeLessType": "dto",
+        "desp": "实体",
+        "type": "string_dto",
+        "details": "实体",
+        "defaultValue": ""
+      },
+      {
+        "name": "label",
+        "desp": "显示字段",
+        "type": "string_label",
+        "details": "显示字段",
+        "defaultValue": ""
+      },
+      {
+        "name": "parentId",
+        "desp": "父级字段",
+        "type": "string_label",
+        "details": "父级字段",
+        "defaultValue": ""
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-tree",
+  "version": "1.0.0",
+  "description": "树"
+}

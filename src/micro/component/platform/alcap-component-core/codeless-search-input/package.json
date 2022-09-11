@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-search-input",
+	"version": "1.0.0",
+	"description": "页面选择组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "页面选择组件",
+		"href": "codeless-page-select",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

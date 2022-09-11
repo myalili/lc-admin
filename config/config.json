@@ -1,0 +1,93 @@
+{
+	"serve": {
+		"port": 7007,
+		"sockPath": "/sockjs-node",
+		"sockHost": "localhost",
+		"publicPath": "./",
+		"mockPort": 7001
+	},
+	"dataSource": {
+		"base": "",
+		"proxy": []
+	},
+	"info": {
+		"layout": "lt-layout",
+		"title": "低代码管理端",
+		"logo": "img/agree-logo.png",
+		"driverType": "pc",
+		"mainPage": "/main/main.vue"
+	},
+	"folderDesp": {
+		"/src/views/microPages/authManagement": "权限管理页面",
+		"/src/views/microPages/menuManagement": "菜单管理页面组件",
+		"/src/views/microPages/userPage": "用户管理的页面组件",
+		"/src/views/microPages/tenantManagement": "租户管理页面",
+		"/src/views/microPages/roleManagement": "角色管理",
+		"/src/views/microPages/userLogger": "日志页面",
+		"/src/views/microPages/dataStructure": "数据结构管理页面",
+		"/src/views/microPages/myProcess": "我的流程页面",
+		"/src/views/microPages/myToDoList": "我的待办",
+		"/src/views/microPages/processRunning": "未结束流程",
+		"/src/views/microPages/processHistory": "已结束流程",
+		"/src/views/microPages/lpInstance": "流程实例页面",
+		"/src/views/microPages/appManagement/application": "应用管理首页",
+		"/src/views/microPages/appManagement/appDetails": "应用管理详情",
+		"/src/views/microPages/appManagement/addPageIndex": "新建入口页面",
+		"/src/views/microPages/appManagement/appRender": "原型页面详情",
+		"/src/views/microPages/pageRender/microPageRender": "微页面渲染编辑器",
+		"/src/views/microPages/login/alcapDefaultLogin": "低代码平台默认登录页面",
+		"/src/views/microPages/huaxingIconManagement": "华兴图标管理",
+		"/src/views/microPages/layout": "layout",
+		"/src/views/microPages/layout/defaultLayout": "默认布局"
+	},
+	"runtime": {
+		"cssLang": "less",
+		"disableVueSPA": false,
+		"disableSupport": true,
+		"preview": "http://localhost:7007"
+	},
+	"extensions": [
+		"webide.extension.lowCode"
+	],
+	"theme": {
+		"themeCss": "/public/css/theme.css",
+		"themeVar": "/src/scss/element-variables.scss",
+		"themeFloder": "/src/scss"
+	},
+	"mockApis": [],
+	"settings": {
+		"cache": true,
+		"autoSave": true,
+		"autoOpenEditor": false,
+		"oldFormValidation": true
+	},
+	"projectMicroSupport": [
+		{
+			"name": "@micro-platform/pipe.support.codelessUtils",
+			"scope": "platform",
+			"source": "local",
+			"version": "1.0.0",
+			"type": "pipe",
+			"desp": "公共方法模版",
+			"apply": true
+		},
+		{
+			"name": "@micro-platform/component.support.codelessComps",
+			"scope": "platform",
+			"source": "local",
+			"version": "1.0.0",
+			"type": "component",
+			"desp": "公共组件模版",
+			"apply": true
+		},
+		{
+			"name": "@micro-platform/component.support.aopsComps",
+			"scope": "platform",
+			"source": "local",
+			"version": "1.0.0",
+			"type": "component",
+			"desp": "公共组件模版",
+			"apply": true
+		}
+	]
+}

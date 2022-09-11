@@ -1,0 +1,48 @@
+{
+  "docs": {
+    "name": "文本链接",
+    "detail": "文本链接",
+    "href": "v2-a-table-link",
+    "__wrapper": "v2cpt",
+    "type": "table",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "page",
+        "desp": "页面",
+        "type": "string_page",
+        "codeLessType": "page",
+        "details": "页面",
+        "defaultValue": {}
+      },
+      {
+        "name": "syncParam",
+        "desp": "数据",
+        "type": "string_syncParam",
+        "codeLessType": "syncParam",
+        "details": "数据",
+        "defaultValue": []
+      },
+      {
+        "name": "title",
+        "desp": "按钮标题",
+        "type": "string_input",
+        "details": "按钮标题",
+        "defaultValue": "文字按钮"
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-table-link",
+  "version": "1.0.0",
+  "description": "文本链接"
+}

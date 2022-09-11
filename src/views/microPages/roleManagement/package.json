@@ -1,0 +1,13 @@
+{
+	"name": "@micro-page/role-manager",
+	"version": "1.0.0",
+	"main": "index.vue",
+	"author": "xuchaoming@agree.com.cn",
+	"description": "角色管理",
+	"keywords": [
+	  "验证中心",
+	  "角色管理"
+	],
+	"category": "page",
+	"license": "ISC"
+  }

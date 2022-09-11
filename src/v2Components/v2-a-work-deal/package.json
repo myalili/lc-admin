@@ -1,0 +1,79 @@
+{
+  "docs": {
+    "name": "办理事件",
+    "detail": "办理事件",
+    "href": "v2-a-work-deal",
+    "__wrapper": "v2cpt",
+    "type": "work",
+    "icon": "icontongyong",
+    "accept": [
+      "workbench",
+      "page"
+    ],
+    "option": [
+      {
+        "name": "mainTitle",
+        "desp": "标题",
+        "type": "string_input",
+        "details": "标题",
+        "defaultValue": ""
+      },
+      {
+        "name": "mainIcon",
+        "desp": "标题图标",
+        "type": "dialog_input",
+        "details": "图片或者图标地址",
+        "dialogType":"icon"
+      },
+      {
+        "name": "options",
+        "desp": "配置项",
+        "type": "array",
+        "details": "配置项",
+        "defaultValue": [],
+        "attrInEachElement": [
+          {
+            "name": "bg",
+            "desp": "背景",
+            "defaultValue": "",
+            "type": "string_select",
+            "valueArray": ["01", "02", "03"],
+            "despArray": ["待阅", "待办", "已办"]
+          },
+          {
+            "name": "title",
+            "desp": "标题",
+            "defaultValue": "",
+            "type": "string_input"
+          },
+          {
+            "name": "icon",
+            "desp": "图标",
+            "defaultValue": "",
+            "type": "dialog_input",
+            "details": "图片或者图标地址",
+            "dialogType":"icon"
+          },
+          {
+            "name": "num",
+            "desp": "数量",
+            "defaultValue": "",
+            "type": "string_input"
+          },
+          {
+            "name": "page",
+            "desp": "页面",
+            "defaultValue": {},
+            "type": "string_page",
+            "details": "页面"
+          }
+        ]
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "description": "办理事件",
+  "name": "@alcap-component/v2-a-work-deal",
+  "version": "1.0.0"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-tool-bar-v2",
+	"version": "1.0.0",
+	"description": "工具栏",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "工具栏",
+		"href": "codeless-tool-bar-v2",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

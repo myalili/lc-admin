@@ -1,0 +1,35 @@
+{
+  "docs": {
+    "name": "列表",
+    "detail": "列表",
+    "href": "v2-a-list",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "schemaType": "ALCAP_LIST",
+    "option": [
+      {
+        "name": "entityId",
+        "codeLessType": "dto",
+        "desp": "实体",
+        "type": "string_dto",
+        "details": "实体",
+        "defaultValue": ""
+      },
+      {
+        "name": "label",
+        "codeLessType":"label",
+        "desp": "显示字段",
+        "type": "string_label",
+        "details": "显示字段",
+        "defaultValue": ""
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "description": "列表",
+  "name": "@alcap-component/v2-a-list",
+  "version": "1.0.0"
+}

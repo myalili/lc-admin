@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-upload-temp",
+	"version": "1.0.0",
+	"description": "上传模板组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "上传模板组件",
+		"href": "codeless-upload-temp",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

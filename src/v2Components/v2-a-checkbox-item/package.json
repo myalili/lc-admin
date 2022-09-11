@@ -1,0 +1,58 @@
+{
+  "docs": {
+    "name": "单选确认框",
+    "detail": "单选确认框",
+    "href": "v2-a-checkbox-item",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": [
+      "page"
+    ],
+    "option": [
+      {
+        "name": "value",
+        "desp": "指定选中的选项",
+        "type": "boolean",
+        "details": "指定选中的选项",
+        "defaultValue": false,
+        "sync": true
+      },
+      {
+        "name": "label",
+        "desp": "选项标题",
+        "type": "string_input",
+        "details": "选项标题",
+        "defaultValue": ""
+      },
+      {
+        "name": "tip",
+        "desp": "确认提示文本",
+        "type": "string_input",
+        "details": "确认提示文本",
+        "defaultValue": ""
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhanghaixian@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-checkbox-item",
+  "version": "1.0.0",
+  "description": "单选确认框"
+}

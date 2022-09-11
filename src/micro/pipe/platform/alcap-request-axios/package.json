@@ -1,0 +1,12 @@
+{
+	"name": "@micro-pipe-platform/alcap-request-axios",
+	"version": "1.0.0",
+	"description": "低代码平台级axios请求拦截",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {}
+}

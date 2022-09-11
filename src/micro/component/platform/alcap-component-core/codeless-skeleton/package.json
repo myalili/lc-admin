@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-skeleton",
+	"version": "1.0.0",
+	"description": "骨架屏组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "骨架屏组件",
+		"href": "codeless-skeleton",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

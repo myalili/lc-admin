@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-page-drawer",
+	"version": "1.0.0",
+	"description": "页面抽屉渲染组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "页面抽屉渲染组件",
+		"href": "codeless-page-drawer",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

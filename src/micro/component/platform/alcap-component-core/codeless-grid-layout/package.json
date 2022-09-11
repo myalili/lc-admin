@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-grid-layout",
+	"version": "1.0.0",
+	"description": "gridLayout渲染组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "base",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "gridLayout渲染组件",
+		"href": "codeless-grid-layout",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

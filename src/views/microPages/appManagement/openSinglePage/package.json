@@ -1,0 +1,21 @@
+{
+	"name": "@micro-page/open-single-page",
+	"version": "1.0.0",
+	"description": "页面详情",
+	"main": "index.vue",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "wubingyu",
+	"license": "ISC",
+	"AParams": {},
+	"files": [
+		"dist","readme.md","screenshots"
+	  ],
+	"microSupport": {
+		"js": [],
+		"css": []
+	},
+	"dependencies": {},
+	"peerDependencies": {}
+}

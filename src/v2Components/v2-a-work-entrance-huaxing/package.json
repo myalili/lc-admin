@@ -1,0 +1,33 @@
+{
+  "docs": {
+    "name": "功能中心",
+    "detail": "功能中心",
+    "href": "v2-a-work-entrance-huaxing",
+    "__wrapper": "v2cpt",
+    "type": "work",
+    "icon": "icontongyong",
+    "accept": [
+      "workbench",
+      "page"
+    ],
+    "option": [
+      {
+        "type": "custom_component",
+        "name": "config",
+        "defaultValue": {
+          "pages": [],
+          "title": ""
+        },
+        "component": "v2-a-work-entrance-edit-huaxing",
+        "desp": "自定义配置",
+        "first": true,
+        "details": "自定义配置"
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "description": "快捷入口",
+  "name": "@alcap-component/v2-a-work-entrance-huaxing",
+  "version": "1.0.0"
+}

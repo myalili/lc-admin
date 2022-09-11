@@ -1,0 +1,25 @@
+{
+	"name": "@v2-pipe/vfilter",
+	"main": "index.js",
+	"docs": {
+		"desp": "",
+		"name": "vfilter",
+		"icon": "",
+		"category": "api",
+		"label": "",
+		"labelType": "front",
+		"belongTo": "function",
+		"hasReturn": false,
+		"returnValue": {
+			"name": "",
+			"desp": "",
+			"details": "",
+			"type": "string",
+			"defaultValue": ""
+		},
+		"params": []
+	},
+	"category": "api",
+	"description": "template",
+	"version": "6.0.0"
+}

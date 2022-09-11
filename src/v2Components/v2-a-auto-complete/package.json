@@ -1,0 +1,57 @@
+{
+  "docs": {
+    "name": "带提示输入框",
+    "detail": "带提示输入框",
+    "href": "v2-a-auto-complete",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "schemaType": "ALCAP_LIST",
+    "option": [
+      {
+        "name": "entityId",
+        "codeLessType": "dto",
+        "desp": "实体",
+        "type": "string_dto",
+        "details": "实体",
+        "defaultValue": ""
+      },
+      {
+        "name": "label",
+        "codeLessType":"label",
+        "desp": "显示字段",
+        "type": "string_label",
+        "details": "显示字段",
+        "defaultValue": ""
+      },
+      {
+        "name": "placeholder",
+        "desp": "输入框占位文本",
+        "type": "string_input",
+        "details": "输入框占位文本",
+        "defaultValue": ""
+      },
+      {
+        "name": "value",
+        "desp": "当前选中的条目",
+        "type": "string_input",
+        "details": "当前选中的条目",
+        "defaultValue": "",
+        "sync": true
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-auto-complete",
+  "version": "1.0.0",
+  "description": "带提示输入框"
+}

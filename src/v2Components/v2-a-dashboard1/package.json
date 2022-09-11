@@ -1,0 +1,61 @@
+{
+      "docs": {
+            "name": "仪表盘-1",
+            "detail": "仪表盘-1",
+            "href": "v2-a-dashboard1",
+            "__wrapper": "v2cpt",
+            "type": "dashboard",
+            "icon": "icontongyong",
+            "accept": ["page"],
+            "option": [
+              {
+                "name": "showData",
+                "desp": "数据展示",
+                "type": "object",
+                "details": "数据展示",
+                "defaultValue": {
+                  "title": "应用群组",
+                  "total": "3726",
+                  "value1": "78",
+                  "value2": "0"
+                },
+                "attrInEachElement": [
+                  {
+                    "name": "title",
+                    "desp": "标题",
+                    "type": "string_input",
+                    "details": "标题",
+                    "defaultValue": "应用群组"
+                  },
+                  {
+                    "name": "value1",
+                    "desp": "成功率",
+                    "type": "string_input",
+                    "details": "成功率",
+                    "defaultValue": "78"
+                  },
+                  {
+                    "name": "value2",
+                    "desp": "失败率",
+                    "type": "string_input",
+                    "details": "失败率",
+                    "defaultValue": "0"
+                  },
+                  {
+                    "name": "total",
+                    "desp": "总量",
+                    "type": "string_input",
+                    "details": "总量",
+                    "defaultValue": "3726"
+                  }
+                ]
+              }
+              
+            ],
+            "slot": [],
+            "events": []
+      },
+      "description": "仪表盘-1",
+      "name": "@alcap-component/v2-a-dashboard1",
+      "version": "1.0.0"
+}

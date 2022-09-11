@@ -1,0 +1,12 @@
+{
+  "name": "@micro-page/entity-manager",
+  "version": "1.0.0",
+  "main": "index.vue",
+  "author": "xuziping@agree.com.cn",
+  "description": "实体管理",
+  "keywords": [
+    "实体管理"
+  ],
+  "category": "page",
+  "license": "ISC"
+}

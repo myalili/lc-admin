@@ -1,0 +1,32 @@
+{
+    "name": "@micro-component-solution/aops-lp-Inst-diagram",
+    "version": "1.0.0",
+    "description": "aops流程显示图组件",
+    "keywords": [],
+    "main": "index.vue",
+    "scripts": {},
+    "author": "",
+    "platform": [
+        "*"
+    ],
+    "project": [
+        "*"
+    ],
+    "category": "base",
+    "docs": {
+        "__wrapper": "v2cpt",
+        "name": "aops流程显示图组件",
+        "href": "aops-lp-inst-diagram",
+        "author": "",
+        "icon": "",
+        "option": [],
+        "defaultOptions": [],
+        "events": [],
+        "slot": [],
+        "css": {},
+        "slots": []
+    },
+    "dependencies": {},
+    "peerDependencies": {},
+    "license": "ISC"
+}

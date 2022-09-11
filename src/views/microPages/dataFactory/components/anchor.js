@@ -1,0 +1,44 @@
+/**
+ * 锚点
+ */
+import Uae from 'uaeengine';
+import { isPointInCircle } from 'uaeengine/src/utils';
+
+Uae.component('anchor', {
+  props: ['show', 'output', 'index'],
+  config: {
+    x() {
+      let data = this.$parent.data;
+      return parseInt(data.bounds.width / 2 - 6);
+    },
+    y() {
+      let data = this.$parent.data;
+      return parseInt(data.bounds.height / 2 - 6);
+    },
+    width: 12,
+    height: 12,
+    offscreen: false
+  },
+  data() {
+    return {
+      isHover: false,
+    }
+  },
+  isHere(cx, cy) {
+    this.isHover = isPointInCircle(cx, cy, 6, 6, 6)
+    return this.isHover;
+  },
+  draw() {
+    
+    if (this.show || this.isHover) {
+      let ctx = this.$ctx;
+      ctx.beginPath();
+      ctx.arc(6, 6, 4, 0, 2 * Math.PI);
+      ctx.lineWidth = 2;
+      ctx.fillStyle = 'rgb(232, 247, 249)';
+      ctx.fill();
+      ctx.strokeStyle = 'black'
+      ctx.stroke();
+    }
+  }
+});

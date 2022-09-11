@@ -1,0 +1,410 @@
+@import './variables.scss'; // 颜色
+
+// size
+$input-height: 28px;
+$font-size: 12px;
+
+// 按钮颜色变量
+$color-btn-hover: #ffffff40; //按钮hover背景色
+$color-btn-text: $color-others; // textbtn的字体颜色
+$color-btn-success: $color-green; // 确认按钮
+$color-btn-delete: $color-error; // 删除按钮
+$color-btn-normal: $color-others; // 其他功能按钮根据规范采用按钮辅助色
+.aops-el-common{ 
+  .el-loading-spinner {
+    .circular {
+      display: inline;
+    }
+  }
+  // v-loading
+.el-loading-mask .el-loading-spinner .path {
+  stroke: $color-success;
+}
+// v-loading end
+
+// 按钮
+.el-button {
+  height: 28px;
+  line-height: 26px;
+  border-radius: 14px;
+  text-align: center;
+  padding: 0px 20px;
+  font-size: $font-size;
+  font-family: SourceHanSansCN-Regular;
+  &.el-button--text {
+    height: 16px;
+    line-height: 16px;
+    padding: 0px;
+    color: $color-btn-normal;
+    &.is-disabled {
+      border: none;
+      background-color: transparent;
+    }
+  }
+  &.is-circle {
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    border-radius: 50%;
+  }
+  &.el-button--default {
+    color: $color-font4;
+    border-color: $color-border;
+    &:hover {
+      background-color: rgba($color-bg-system, 0.3);
+    }
+  }
+  &.is-plain {
+    background-color: $color-white;
+    &.el-button--primary {
+      color: $color-btn-normal;
+      &:hover {
+        background-color: rgba($color-btn-normal, 0.1);
+      }
+    }
+    &.el-button--success {
+      color: $color-btn-success;
+      &:hover {
+        background-color: rgba($color-btn-success, 0.1);
+      }
+    }
+    &.el-button--danger {
+      color: $color-btn-delete;
+      &:hover {
+        background-color: rgba($color-btn-delete, 0.1);
+      }
+    }
+    &.el-button--default {
+      &:hover {
+        background-color: rgba($color-bg-system, 0.3);
+      }
+    }
+  }
+  &.is-disabled {
+    color: $color-font3 !important;
+    border-color: $color-bg-system;
+    background-color: $color-bg-system;
+  }
+}
+// 按钮 end
+
+// 多选框
+.el-checkbox {
+  .el-checkbox__input {
+    .el-checkbox__inner:hover {
+      border-color: $color-btn-success;
+    }
+    &.is-checked > .el-checkbox__inner {
+      // 选中
+      border-color: $color-success;
+      background-color: $color-success;
+    }
+    &.is-indeterminate > .el-checkbox__inner {
+      // 一个减号的状态
+      border-color: $color-success;
+      background-color: $color-success;
+    }
+  }
+}
+// 多选框 end
+
+// 表格
+.el-table {
+  border-top: 1px solid $color-bg-system;
+  color: $color-font;
+  .el-table__empty-block {
+    min-height: 48px;
+    .el-table__empty-text {
+      line-height: 48px;
+    }
+  }
+  table td,
+  table th {
+    height: 48px;
+    padding: 0;
+    font-size: $font-size;
+    border-color: $color-bg-system;
+  }
+  table th {
+    background-color: $color-white;
+  }
+  .el-table--border th,
+  .el-table--border td {
+    border: none;
+    border-color: transparent;
+  }
+  tr > th > .cell {
+    font-family: Source Han Sans CN;
+    font-weight: normal;
+  }
+}
+// 表格 end
+
+// 输入框
+.el-input {
+  .el-input__inner {
+    color: $color-font;
+    height: $input-height;
+    border-color: $color-border1;
+    &:hover {
+      border-color: $color-font4;
+    }
+    &:active,
+    &:focus {
+      border-color: $color-green;
+    }
+  }
+  .el-input__suffix {
+    height: $input-height;
+    .el-input__icon {
+      font-size: $font-size;
+      line-height: $input-height;
+    }
+    .el-input__suffix-inner {
+      .el-input__count {
+        .el-input__count-inner {
+          color: $color-font2;
+        }
+      }
+    }
+  }
+}
+.el-input__inner {
+  height: $input-height;
+  line-height: $input-height;
+  font-size: $font-size;
+  color: $color-font;
+  &::-webkit-input-placeholder {
+    font-size: $font-size;
+    color: $color-font5;
+  }
+}
+// 输入框 end
+
+// 下拉框
+.el-select {
+  .el-input {
+    .el-input__suffix {
+      height: $input-height;
+    }
+    .el-input__suffix .el-select__caret {
+      color: $color-font5;
+    }
+    &:hover {
+      .el-input__suffix .el-select__caret {
+        color: $color-font4;
+      }
+    }
+    &.is-focus,
+    &.is-active {
+      .el-input__inner {
+        border-color: $color-green;
+      }
+      .el-input__suffix .el-select__caret {
+        color: $color-green;
+      }
+    }
+  }
+}
+.el-select-dropdown__item {
+  font-size: $font-size;
+  height: $input-height;
+  line-height: $input-height;
+}
+// 下拉框 end
+
+// 文本框
+.el-textarea {
+  .el-input__count {
+    color: $color-font2;
+  }
+}
+// 文本框 end
+
+// 表单
+.el-form {
+  .el-form-item {
+    // margin-bottom: 18px;
+    .el-form-item__label {
+      line-height: $input-height;
+      font-size: $font-size;
+      color: $color-font;
+    }
+    .el-form-item__content {
+      line-height: $input-height;
+      word-wrap: break-word;
+      word-break: break-all;
+      font-size: $font-size;
+    }
+  }
+}
+.el-form.el-form--inline {
+  .el-form-item {
+    line-height: $input-height;
+    .el-form-item__label {
+      vertical-align: top;
+    }
+    .el-form-item__content {
+      vertical-align: top;
+      .el-input,
+      .el-select {
+        width: 180px;
+      }
+    }
+  }
+}
+// 表单 end
+
+// 日期选择器
+.el-date-editor {
+  height: $input-height;
+  border-color: $color-border1;
+  &:hover {
+    border-color: $color-font4;
+  }
+  &.is-active {
+    border-color: $color-green;
+  }
+  .el-input__icon,
+  .el-range-separator {
+    font-size: $font-size;
+    line-height: 22px;
+  }
+  .el-range-input {
+    font-size: $font-size;
+    color: $color-font;
+  }
+}
+.el-picker-panel .el-range-date-picker .el-picker-panel__body-wrapper .el-date-range-picker__content .el-date-table {
+  .in-range {
+    background-color: $color-bg-date-select !important;
+  }
+  .start-date {
+    span {
+      background-color: $color-success !important;
+    }
+  }
+  .end-date {
+    span {
+      background-color: $color-success !important;
+    }
+  }
+}
+// 日期选择器 end
+
+// 弹窗
+.el-dialog__wrapper {
+  > .el-dialog {
+    > .el-dialog__header {
+      padding: 0 20px;
+      line-height: 44px;
+      border-bottom: 1px solid $color-border2;
+      > .el-dialog__title {
+        font-size: 13px;
+        font-weight: bold;
+      }
+      > .el-dialog__headerbtn {
+        top: 0;
+        line-height: 44px;
+        > i {
+          color: $color-font2;
+        }
+      }
+    }
+    > .el-dialog__body {
+      padding: 16px 30px 0 30px;
+    }
+    > .el-dialog__footer {
+      padding: 16px 30px 20px 30px;
+      .el-button {
+        height: auto;
+        padding: 0 18px;
+        line-height: 30px;
+        border-radius: 18px;
+        &.el-button--primary {
+          border-color: $color-success;
+          background-color: $color-success;
+          &:hover {
+            background-color: rgba($color-success, 0.8);
+          }
+        }
+      }
+    }
+  }
+}
+// 弹窗 end
+
+// 确认框
+.el-message-box {
+  border-color: $color-border2;
+  padding: 0;
+  .el-message-box__header {
+    padding: 0 20px;
+    line-height: 44px;
+    border-bottom: 1px solid $color-border2;
+    > .el-message-box__title {
+      line-height: inherit;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    > .el-message-box__headerbtn {
+      top: 0;
+      line-height: 44px;
+      > i {
+        color: $color-font2;
+      }
+    }
+  }
+  .el-message-box__content {
+    padding: 20px 30px;
+  }
+  .el-message-box__btns {
+    padding: 0 30px 30px 30px;
+    .el-button--primary {
+      border-color: $color-green;
+      background-color: $color-green;
+      color: $color-white;
+    }
+  }
+}
+// 确认框 end
+
+// tabs
+.el-tabs {
+  .el-tabs__header {
+    .el-tabs__active-bar {
+      background-color: $color-success;
+    }
+    .el-tabs__item {
+      font-size: 12px;
+      color: #5b5b5b;
+      padding-left: 20px !important;
+      &.is-active {
+        color: $color-font;
+        font-weight: 600;
+      }
+    }
+    .el-tabs__nav-wrap::after {
+      height: 1px;
+    }
+  }
+  .el-tabs__content {
+    font-size: 12px;
+  }
+}
+// tabs end
+
+// 分页条
+.el-pagination {
+  margin: 10px 0;
+  text-align: right;
+}
+// 分页条 end
+
+// 树组件
+.el-tree {
+  color: $color-font;
+}
+// 树组件 end
+
+}

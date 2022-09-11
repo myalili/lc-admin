@@ -1,0 +1,37 @@
+// 1. 基础色
+$color-white: #ffffff;
+$color-green: #07b6b5; // 分类选中底色、确定按钮底色
+$color-green1: #009aa6; // 深绿(点线使用)
+
+// 2. 基础色变量
+$color-success: #07b6b5;
+$color-warning: #ff984d;
+$color-error: #f65656;
+$color-info: #0096ff;
+$color-others: #357aa0;
+$color-undefined: #909699;
+$color-hightLight: #ffd966;
+$color-border: #a9bdc7; // 默认按钮的边框颜色
+$color-border1: #c8d0d4; // input的 border
+$color-border2: #dddfe5; // input的 border
+
+// 3. 背景色
+$color-bg-system: #e7ecef; // 系统背景色，分类底色
+$color-bg-card: #e9f4fa; // 主要卡片背景色
+$color-bg-card1: #eff7fb; // 卡片背景色2
+$color-bg-card-header: #f7fafb; // 卡片顶栏背景色
+$color-bg-input: #eff3f6; // 输入框背景色
+$color-bg-tabs: #f6f8f9; // 全局页签背景色
+$color-bg-date-select: #e9fafa;
+
+// 4. 文字颜色
+$color-tree-icon: #66b3ff;
+$color-font: #333333; // 最常用文字
+$color-font1: #5b5b5b; // 常规文字
+$color-font2: #7f8c93; // 次要文字(table每列的名称、form的label)
+$color-font3: #bbbbbb; // 按钮禁用时候的字体
+$color-font4: #374e71; // 白色底色的按钮字体
+$color-font5: #c0c4cc; // input的placeHolder
+
+// 5. 其它
+$color-input-placeholder: #c0c4cc;

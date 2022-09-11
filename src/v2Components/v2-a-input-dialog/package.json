@@ -1,0 +1,61 @@
+{
+  "docs": {
+    "name": "带弹窗输入框",
+    "detail": "带弹窗输入框",
+    "href": "v2-a-input-dialog",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "schemaType": "ALCAP_PAGEING",
+    "icon": "icontongyong",
+    "accept": [
+      "page"
+    ],
+    "option": [
+      {
+        "name": "value",
+        "desp": "输入框内容",
+        "type": "string_input",
+        "details": "输入框内容",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "entityId",
+        "codeLessType": "dto",
+        "desp": "实体",
+        "type": "string_dto",
+        "details": "实体",
+        "defaultValue": ""
+      },
+      {
+        "name": "label",
+        "codeLessType":"label",
+        "desp": "显示字段",
+        "type": "string_label",
+        "details": "显示字段",
+        "defaultValue": ""
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhanghaixian@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-input-dialog",
+  "version": "1.0.0",
+  "description": "带弹窗输入框"
+}

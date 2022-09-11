@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-app-temp",
+	"version": "1.0.0",
+	"description": "添加模板组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "添加模板组件",
+		"href": "codeless-app-temp",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

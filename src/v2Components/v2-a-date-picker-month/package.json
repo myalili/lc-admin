@@ -1,0 +1,42 @@
+{
+  "docs": {
+    "name": "月份选择框",
+    "detail": "月份选择框",
+    "href": "v2-a-date-picker-month",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "value",
+        "desp": "月份",
+        "type": "string_input",
+        "details": "月份",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-date-picker-month",
+  "version": "1.0.0",
+  "description": "月份选择框"
+}

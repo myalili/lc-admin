@@ -1,0 +1,65 @@
+{
+  "docs": {
+    "name": "表格-华兴",
+    "detail": "表格-华兴",
+    "href": "v2-a-table-huaxing",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "schemaType": "ALCAP_SINGLE_PAGE",
+    "option": [
+      {
+        "name": "entityId",
+        "desp": "数据实体id",
+        "type": "string_dto",
+        "details": "数据实体id",
+        "defaultValue": ""
+      },
+      {
+        "name": "field",
+        "desp": "字段",
+        "type": "custom_component",
+        "details": "字段",
+        "component": "v2-a-table-huaxing-edit",
+        "defaultValue": []
+      },
+      {
+        "name": "startGet"
+      }
+    ],
+    "slot": [
+      {
+        "name": "name",
+        "desc": "自定义文本",
+        "limit": 1,
+        "type": [
+          "none",
+          "text",
+          "icon",
+          "component",
+          "custom"
+        ],
+        "slotScope": "$scope,text",
+        "scopeDesc": "scope描述",
+        "props": [
+          "type",
+          "width",
+          "index",
+          "column-key"
+        ]
+      }
+    ],
+    "events": []
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-table-huaxing",
+  "version": "1.0.0",
+  "description": "表格-华兴"
+}

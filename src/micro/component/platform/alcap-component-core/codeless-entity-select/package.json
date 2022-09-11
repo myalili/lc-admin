@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-entity-select",
+	"version": "1.0.0",
+	"description": "实体选择组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "实体选择组件",
+		"href": "codeless-entity-select",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

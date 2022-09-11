@@ -1,0 +1,33 @@
+{
+    "docs": {
+        "name": "功能链接",
+        "detail": "功能链接",
+        "href": "v2-a-work-links",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept": [
+            "workbench", "page" 
+        ],
+        "option": [
+            {
+                "type": "custom_component",
+                "name": "config",
+                "defaultValue": {
+                    "title": "",
+                    "links": []
+                },
+                "component": "v2-a-work-links-edit",
+                "desp": "自定义配置",
+                "first": true,
+                "details": "自定义配置"
+            }
+        ],
+        "slot": [],
+        "events": []
+    },
+    "author": "lvchengzhang@agree.com.cn",
+    "name": "@alcap-component/v2-a-work-links",
+    "version": "1.0.0",
+    "description": "功能链接"
+}

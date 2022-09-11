@@ -1,0 +1,291 @@
+{
+  "structure": {
+    "__resolveFromCode": false,
+    "children": [
+      {
+        "name": "待办数",
+        "type": "work",
+        "href": "v2-a-work-card",
+        "component": "v2-a-work-card",
+        "props": ["dataSource"],
+        "dataSource": "",
+        "__editor": [],
+        "accept": ["workbench", "page"],
+        "style": null,
+        "wid": 1648889996460,
+        "mobilelayout": {
+          "x": 0,
+          "y": 0,
+          "w": 73,
+          "h": 154,
+          "i": 1648889996460,
+          "moved": false,
+          "wunit": "px",
+          "hunit": "px",
+          "fullScreen": false
+        },
+        "gridlayout": {
+          "x": 0,
+          "y": 0,
+          "w": 73,
+          "h": 154,
+          "i": 1648889996460,
+          "moved": false,
+          "wunit": "px",
+          "hunit": "px",
+          "fullScreen": false
+        },
+        "isEditable": false,
+        "_gridlayout": {
+          "x": 0,
+          "y": 0,
+          "w": 765,
+          "h": 170,
+          "wunit": "px",
+          "hunit": "px"
+        }
+      },
+      {
+        "name": "快捷入口",
+        "type": "work",
+        "href": "v2-a-work-entrance",
+        "component": "v2-a-work-entrance",
+        "props": ["config"],
+        "config": {
+          "pages": [
+            {
+              "title": "汇出汇款申请",
+              "type": "",
+              "path": { "prototypeId": "page-SIfx8TbZ" },
+              "hoverIndex": -1,
+              "edit": true,
+              "dialogInfo": {
+                "width": "50",
+                "widthUnit": "%",
+                "height": "50",
+                "heightUnit": "%"
+              }
+            },
+            {
+              "title": "保函开立",
+              "type": "",
+              "path": { "prototypeId": "page-jGO3nA3v" },
+              "hoverIndex": -1,
+              "edit": true,
+              "dialogInfo": {
+                "width": "50",
+                "widthUnit": "%",
+                "height": "50",
+                "heightUnit": "%"
+              }
+            },
+            {
+              "title": "单笔转账",
+              "type": "",
+              "path": { "prototypeId": "page-TuDmDD1V" },
+              "hoverIndex": -1,
+              "edit": true,
+              "dialogInfo": {
+                "width": "50",
+                "widthUnit": "%",
+                "height": "50",
+                "heightUnit": "%"
+              }
+            }
+          ]
+        },
+        "__editor": [],
+        "accept": ["workbench", "page"],
+        "style": null,
+        "wid": 1648890641762,
+        "mobilelayout": {
+          "x": 0,
+          "y": 154,
+          "w": 73,
+          "h": 210,
+          "i": 1648890641762,
+          "moved": false,
+          "wunit": "px",
+          "hunit": "px",
+          "fullScreen": false
+        },
+        "gridlayout": {
+          "x": 0,
+          "y": 154,
+          "w": 73,
+          "h": 210,
+          "i": 1648890641762,
+          "moved": false,
+          "wunit": "px",
+          "hunit": "px",
+          "fullScreen": false
+        },
+        "isEditable": false,
+        "_gridlayout": {
+          "x": 0,
+          "y": 170,
+          "w": 765,
+          "h": 156,
+          "wunit": "px",
+          "hunit": "px"
+        },
+        "generalComponentShow": {
+          "arg": "",
+          "showType": "",
+          "showValue": null,
+          "isOpen": false
+        }
+      },
+      {
+        "name": "处理趋势",
+        "type": "work",
+        "href": "v2-a-work-trends",
+        "component": "v2-a-work-trends",
+        "props": [],
+        "__editor": [],
+        "schemaType": "",
+        "accept": ["workbench", "page"],
+        "style": null,
+        "wid": 1648890668699,
+        "mobilelayout": {
+          "x": 22,
+          "y": 364,
+          "w": 51,
+          "h": 367,
+          "i": 1648890668699,
+          "moved": false,
+          "wunit": "px",
+          "hunit": "px",
+          "fullScreen": false
+        },
+        "gridlayout": {
+          "x": 22,
+          "y": 364,
+          "w": 51,
+          "h": 367,
+          "i": 1648890668699,
+          "moved": false,
+          "wunit": "px",
+          "hunit": "px",
+          "fullScreen": false
+        },
+        "isEditable": false,
+        "_gridlayout": {
+          "x": 0,
+          "y": 690,
+          "w": 765,
+          "h": 243,
+          "wunit": "px",
+          "hunit": "px"
+        }
+      },
+      {
+        "name": "消息通知",
+        "type": "work",
+        "href": "v2-a-work-notice",
+        "component": "v2-a-work-notice",
+        "packageName": "@alcap-component/v2-a-work-notice",
+        "props": ["config", "page"],
+        "config": {
+          "title": "消息通知",
+          "titleIcon": "icon-xiaoxitongzhi-gongzuotai",
+          "contentIcon": "icon-putongxiaoxi-gongzuotai",
+          "contentBgColor": "",
+          "viewAllPage": {},
+          "entityId": "",
+          "fields": {
+            "contentField": {},
+            "iconField": {},
+            "createTimeField": {}
+          }
+        },
+        "page": {
+          "title": "新页面",
+          "type": "",
+          "path": "",
+          "hoverIndex": -1,
+          "edit": true,
+          "dialogInfo": {
+            "width": "50",
+            "widthUnit": "%",
+            "height": "50",
+            "heightUnit": "%"
+          }
+        },
+        "__editor": [],
+        "accept": ["workbench", "page"],
+        "style": null,
+        "version": "1.0.0",
+        "children": [],
+        "bgImg": "img/bg_component.png",
+        "gridlayout": {
+          "x": 73,
+          "y": 0,
+          "h": 729,
+          "w": 27,
+          "i": 1656061666571,
+          "fullScreen": false,
+          "moved": false
+        },
+        "wid": 1656061666571,
+        "mobilelayout": {
+          "x": 73,
+          "y": 0,
+          "h": 729,
+          "w": 27,
+          "i": 1656061666571,
+          "fullScreen": false,
+          "moved": false
+        },
+        "isEditable": false
+      },
+      {
+        "name": "待办任务",
+        "type": "work",
+        "href": "v2-a-work-agency",
+        "component": "v2-a-work-agency",
+        "packageName": "@alcap-component/v2-a-work-agency",
+        "props": ["config"],
+        "config": {
+          "title": "待办任务",
+          "titleIcon": "icon-daibanrenwu-gongzuotai",
+          "viewAllPage": {},
+          "entityId": "",
+          "fields": {
+            "titleField": {},
+            "statusField": {},
+            "createTimeField": {},
+            "taskDespField": {}
+          }
+        },
+        "__editor": [],
+        "accept": ["workbench", "page"],
+        "style": null,
+        "version": "1.0.0",
+        "children": [],
+        "bgImg": "img/bg_component.png",
+        "gridlayout": {
+          "x": 0,
+          "y": 364,
+          "h": 368,
+          "w": 22,
+          "i": 1656062251221,
+          "fullScreen": false,
+          "moved": false
+        },
+        "wid": 1656062251221,
+        "mobilelayout": {
+          "x": 0,
+          "y": 364,
+          "h": 368,
+          "w": 22,
+          "i": 1656062251221,
+          "fullScreen": false,
+          "moved": false
+        },
+        "isEditable": false
+      }
+    ],
+    "commonStyle": { "background-image": "" }
+  }
+}

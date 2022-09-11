@@ -1,0 +1,42 @@
+{
+  "docs": {
+    "name": "年份选择框",
+    "detail": "年份选择框",
+    "href": "v2-a-date-picker-year",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "value",
+        "desp": "年份",
+        "type": "string_input",
+        "details": "年份",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-date-picker-year",
+  "version": "1.0.0",
+  "description": "年份选择框"
+}

@@ -1,0 +1,1 @@
+{"name":"@v2-pipe/cookie","main":"index.js","docs":{"desp":"cookie封装api","name":"cookie","icon":"","category":"api","label":"","labelType":"front","belongTo":"function","hasReturn":false,"returnValue":{"name":"","desp":"","details":"","type":"string","defaultValue":""},"params":[]},"category":"api","description":"cookie封装api","version":"6.0.0"}

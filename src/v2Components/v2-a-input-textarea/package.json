@@ -1,0 +1,63 @@
+{
+  "docs": {
+    "name": "文本域",
+    "detail": "文本域",
+    "href": "v2-a-input-textarea",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "maxLength",
+        "desp": "最大长度",
+        "type": "string_input",
+        "details": "最大长度",
+        "defaultValue": "255"
+      },
+      {
+        "name": "value",
+        "desp": "文本域内容",
+        "type": "string_input",
+        "details": "文本域内容",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "disabled",
+        "desp": "是否禁用",
+        "type": "boolean",
+        "details": "是否禁用状态，默认为 false",
+        "defaultValue": false
+      },
+      {
+        "name": "placeholder",
+        "desp": "输入框占位文本",
+        "type": "string_input",
+        "details": "输入框占位文本",
+        "defaultValue": "请输入内容"
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "48px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-input-textarea",
+  "version": "1.0.0",
+  "description": "文本域"
+}

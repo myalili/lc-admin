@@ -1,0 +1,36 @@
+{
+  "docs": {
+    "name": "图片",
+    "detail": "图片",
+    "href": "v2-a-img",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "src",
+        "desp": "图片内容",
+        "type": "dialog_input",
+        "details": "图片或者图标地址",
+        "dialogType":"picture",
+        "defaultValue": "",
+        "require":{
+          "dataType":"picture"
+        }
+      },
+      {
+        "name": "alt",
+        "desp": "图像的替代文本",
+        "type": "string_input",
+        "details": "图像的替代文本",
+        "defaultValue": ""
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "description": "图片(ant)",
+  "name": "@alcap-component/v2-a-img",
+  "version": "1.0.0"
+}

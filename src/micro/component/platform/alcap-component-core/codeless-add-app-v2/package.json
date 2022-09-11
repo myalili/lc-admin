@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-add-app-v2",
+	"version": "1.0.0",
+	"description": "添加页面组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "添加页面组件",
+		"href": "codeless-add-app-v2",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

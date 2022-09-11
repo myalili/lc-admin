@@ -1,0 +1,24 @@
+{
+  "docs": {
+    "name": "查询表格组件配置",
+    "detail": "查询表格组件配置",
+    "href": "v2-a-form-search-edit",
+    "__wrapper": "v2cpt",
+    "type": "edit",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [],
+    "slot": [],
+    "events": [],
+    "schemaType": "ALCAP_PAGEING"
+  },
+  "main": "index.vue",
+  "noUse":false ,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-form-search-edit",
+  "version": "1.0.0" 
+}

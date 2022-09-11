@@ -1,0 +1,24 @@
+{
+  "docs": {
+    "name": "容器",
+    "detail": "容器",
+    "href": "v2-a-container",
+    "__wrapper": "v2cpt",
+    "icon": "icontongyong",
+    "accept": [
+      "page",
+      "workbench"
+    ],
+    "schemaType": "",
+    "option": [],
+    "slot": [],
+    "events": [],
+    "style": {
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+  "description": "容器",
+  "name": "@alcap-component/v2-a-container",
+  "version": "1.0.0"
+}

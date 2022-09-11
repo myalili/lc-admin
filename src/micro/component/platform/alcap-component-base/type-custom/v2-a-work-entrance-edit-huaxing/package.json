@@ -1,0 +1,15 @@
+{
+  "docs": {
+        "name": "功能中心配置",
+        "detail": "功能中心配置",
+        "href": "v2-a-work-entrance-edit-huaxing",
+        "__wrapper": "v2cpt",
+        "icon": "icontongyong",
+        "option": [],
+        "slot": [],
+        "events": []
+  },
+  "description": "功能中心配置",
+  "name": "@alcap-component/v2-a-work-entrance-edit-huaxing",
+  "version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@micro-component-plaform/codeless-pagination",
+    "version": "1.0.0",
+    "description": "分页器",
+    "keywords": [],
+    "main": "index.vue",
+    "scripts": {},
+    "author": "",
+    "platform": [
+        "*"
+    ],
+    "project": [
+        "*"
+    ],
+    "category": "base",
+    "docs": {
+        "__wrapper": "v2cpt",
+        "name": "分页器",
+        "href": "codeless-pagination",
+        "author": "",
+        "icon": "",
+        "option": [],
+        "defaultOptions": [],
+        "events": [],
+        "slot": [],
+        "css": {},
+        "slots": []
+    },
+    "dependencies": {},
+    "peerDependencies": {},
+    "license": "ISC"
+}

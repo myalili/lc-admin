@@ -1,0 +1,51 @@
+{
+  "docs": {
+    "name": "金额区间表格",
+    "detail": "金额区间表格",
+    "href": "v2-a-table-money",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "value",
+        "desp": "输入框内容",
+        "type": "string_input",
+        "details": "输入框内容",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "moneyMode",
+        "desp": "金额模式",
+        "defaultValue": "1",
+        "type": "string_select",
+        "doc": "#",
+        "valueArray": [
+          "1",
+          "0"
+        ],
+        "despArray": [
+          "有金额模式",
+          "无金额模式"
+        ]
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-table-money",
+  "version": "1.0.0",
+  "description": "金额区间表格"
+}

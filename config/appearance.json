@@ -1,0 +1,9 @@
+{
+	"layout": "lr-layout",
+	"title": "低代码应用平台",
+	"logo": "img/agree-logo.png",
+	"loginPageType": "default",
+	"loginPageWithIdentifyingCode": false,
+	"driverType": "pc",
+ 	"keep-alive": false
+}

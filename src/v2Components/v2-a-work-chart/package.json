@@ -1,0 +1,36 @@
+{
+    "docs": {
+        "name": "BI图表",
+        "detail": "BI图表",
+        "href": "v2-a-work-chart",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept": [
+            "workbench", "page" 
+        ],
+        "option": [
+            {
+                "type": "custom_component",
+                "name": "config",
+                "defaultValue": {
+                    "entityId": "",
+                    "fields": {
+                        "xAxis": [],
+                        "yAxis": [],
+                        "chartType": "line"
+                    }
+                },
+                "component": "v2-a-work-chart-edit",
+                "desp": "自定义配置",
+                "first": true,
+                "details": "自定义配置"
+            }
+        ],
+        "slot": [],
+        "events": []
+    },
+    "description": "BI图表",
+    "name": "@alcap-component/v2-a-work-chart",
+    "version": "1.0.0"
+}

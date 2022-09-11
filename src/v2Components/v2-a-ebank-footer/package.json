@@ -1,0 +1,19 @@
+{
+  "docs": {
+      "name": "底部信息",
+      "detail": "底部信息",
+      "href": "v2-a-ebank-footer",
+      "__wrapper": "v2cpt",
+      "type": "work",
+      "icon": "icontongyong",
+      "accept": [
+          "workbench", "page" 
+      ],
+      "option": [],
+      "slot": [],
+      "events": []
+  },
+  "description": "底部信息",
+  "name": "@alcap-component/v2-a-ebank-footer",
+  "version": "1.0.0"
+}

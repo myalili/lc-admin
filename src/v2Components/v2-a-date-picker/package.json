@@ -1,0 +1,59 @@
+{
+  "docs": {
+    "name": "日期选择框",
+    "detail": "日期选择框",
+    "href": "v2-a-date-picker",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "value",
+        "desp": "日期",
+        "type": "string_input",
+        "details": "日期",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "valueFormat",
+        "desp": "日期格式",
+        "codeLessType": "valueFormat",
+        "defaultValue": "timestamp",
+        "type": "string_select",
+        "doc": "#",
+        "valueArray": [
+          "timestamp",
+          "yyyy-MM-dd"
+        ],
+        "despArray": [
+          "时间戳",
+          "日期"
+        ]
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+      
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-date-picker",
+  "version": "1.0.0",
+  "description": "日期选择框"
+}

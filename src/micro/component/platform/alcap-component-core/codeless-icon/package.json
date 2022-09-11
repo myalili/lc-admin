@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-icon",
+	"version": "1.0.0",
+	"description": "图标",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "base",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "图标",
+		"href": "codeless-icon",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

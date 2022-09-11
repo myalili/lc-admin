@@ -1,0 +1,45 @@
+{
+  "docs": {
+    "name": "文章",
+    "detail": "文章",
+    "href": "v2-a-article",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": [
+      "page"
+    ],
+    "schemaType": "contentString",
+    "option": [
+      {
+        "name": "content",
+        "desp": "自定义",
+        "defaultValue": {
+          "entityId": "",
+          "value": "",
+          "syncParam": "",
+          "type": "entity"
+        },
+        "type": "custom_component",
+        "details": "自定义",
+        "component": "v2-a-article-edit"
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-article",
+  "version": "1.0.0",
+  "description": "文章"
+}

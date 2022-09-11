@@ -1,0 +1,19 @@
+{
+	"name": "@micro-page/userPage",
+	"version": "1.0.9",
+	"description": "用户管理的页面",
+	"main": "index.vue",
+	"keywords": [
+		""
+	],
+	"category": "page",
+	"author": "zengmeiling",
+	"screenshots": [
+		""
+	],
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.18.1",
+		"vuex": "^3.0.1"
+	}
+}

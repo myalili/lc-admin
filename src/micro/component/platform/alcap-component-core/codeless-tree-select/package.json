@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-tree-temp",
+	"version": "1.0.0",
+	"description": "树下拉选择组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "树下拉选择组件",
+		"href": "codeless-tree-temp",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

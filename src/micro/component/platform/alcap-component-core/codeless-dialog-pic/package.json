@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-dialog-pic",
+	"version": "1.0.0",
+	"description": "图片选择组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "base",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "图片选择组件",
+		"href": "codeless-dialog-pic",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

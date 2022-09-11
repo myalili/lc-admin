@@ -1,0 +1,12 @@
+{
+	"name": "@micro-component-solution/alcap-component-aops",
+	"version": "1.0.0",
+	"description": "低代码平台aops公共组件库",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {}
+}

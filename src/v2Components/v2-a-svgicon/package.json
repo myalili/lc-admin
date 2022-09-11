@@ -1,0 +1,72 @@
+{
+  "docs": {
+    "name": "图标",
+    "detail": "图标",
+    "href": "v2-a-svgicon",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": [
+      "page"
+    ],
+    "option": [
+      {
+        "name": "icon",
+        "desp": "图标代码",
+        "type": "dialog_input",
+        "dialogType": "icon",
+        "details": "图标代码",
+        "defaultValue": "icon-zuhumingcheng",
+        "require": {
+          "dataType": "icon"
+        }
+      },
+      {
+        "name": "align",
+        "desp": "水平对齐",
+        "defaultValue": "center",
+        "type": "string_select",
+        "doc": "#",
+        "valueArray": [
+          "flex-start",
+          "center",
+          "flex-end"
+        ],
+        "despArray": [
+          "左边",
+          "居中",
+          "右边"
+        ]
+      },
+      {
+        "name": "vertical",
+        "desp": "垂直对齐",
+        "defaultValue": "center",
+        "type": "string_select",
+        "doc": "#",
+        "valueArray": [
+          "flex-start",
+          "center",
+          "flex-end"
+        ],
+        "despArray": [
+          "上边",
+          "居中",
+          "下边"
+        ]
+      }
+    ],
+    "slot": [],
+    "events": []
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-svgicon",
+  "version": "1.0.0",
+  "description": "图标"
+}

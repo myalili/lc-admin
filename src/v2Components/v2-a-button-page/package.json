@@ -1,0 +1,82 @@
+{
+  "docs": {
+    "name": "按钮",
+    "detail": "按钮",
+    "href": "v2-a-button-page",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "option": [
+      {
+        "name": "title",
+        "desp": "标题",
+        "type": "string_input",
+        "details": "标题",
+        "defaultValue": "按钮"
+      },
+      {
+        "name": "page",
+        "desp": "页面",
+        "type": "string_page",
+        "details": "页面",
+        "defaultValue": {}
+      },
+      {
+        "name": "type",
+        "desp": "类型",
+        "type": "string_select",
+        "details": "类型",
+        "defaultValue": "primary",
+        "doc": "#",
+        "valueArray": [
+          "primary",
+          "success",
+          "warning",
+          "danger",
+          "info",
+          "text"
+        ],
+        "despArray": [
+          "主题",
+          "成功",
+          "警告",
+          "危险",
+          "普通",
+          "文字"
+        ]
+      },
+      {
+        "name": "size",
+        "desp": "尺寸",
+        "type": "string_select",
+        "details": "尺寸",
+        "defaultValue": "mini",
+        "doc": "#",
+        "valueArray": [
+          "medium",
+          "small",
+          "mini"
+        ],
+        "despArray": [
+          "中等",
+          "小",
+          "迷你"
+        ]
+      }
+      
+    ],
+    "slot": [],
+    "events": []
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-button-page",
+  "version": "1.0.0",
+  "description": "按钮"
+}

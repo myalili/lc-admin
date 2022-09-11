@@ -1,0 +1,32 @@
+{
+    "name": "@micro-component-plaform/codeless-page-data-binding",
+    "version": "1.0.0",
+    "description": "页面数据绑定组件",
+    "keywords": [],
+    "main": "index.vue",
+    "scripts": {},
+    "author": "",
+    "platform": [
+        "*"
+    ],
+    "project": [
+        "*"
+    ],
+    "category": "core",
+    "docs": {
+        "__wrapper": "v2cpt",
+        "name": "页面数据绑定组件",
+        "href": "codeless-page-data-binding",
+        "author": "",
+        "icon": "",
+        "option": [],
+        "defaultOptions": [],
+        "events": [],
+        "slot": [],
+        "css": {},
+        "slots": []
+    },
+    "dependencies": {},
+    "peerDependencies": {},
+    "license": "ISC"
+}

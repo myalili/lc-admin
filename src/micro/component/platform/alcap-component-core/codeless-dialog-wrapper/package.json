@@ -1,0 +1,65 @@
+{
+	"name": "@micro-component-plaform/codeless-dialog-wrapper",
+	"version": "1.0.0",
+	"description": "弹窗容器组件",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": [
+		"*"
+	],
+	"project": [
+		"*"
+	],
+	"category": "base",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "弹窗容器组件",
+		"href": "codeless-dialog-wrapper",
+		"author": "",
+		"icon": "",
+		"option": [
+			{
+				"name": "title",
+				"desp": "},",
+				"type": [
+					"string_input"
+				],
+				"defaultValue": ""
+			},
+			{
+				"name": "hideHeader",
+				"desp": "",
+				"type": [
+					"boolean"
+				],
+				"defaultValue": false
+			},
+			{
+				"name": "hideFooter",
+				"desp": "",
+				"type": [
+					"boolean"
+				],
+				"defaultValue": false
+			}
+		],
+		"defaultOptions": [],
+		"events": [
+			{
+				"name": "close"
+			}
+		],
+		"slot": [],
+		"css": {},
+		"slots": [
+			{
+				"name": "dialogContent"
+			}
+		]
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

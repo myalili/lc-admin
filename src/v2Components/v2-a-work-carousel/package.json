@@ -1,0 +1,159 @@
+{
+    "docs": {
+        "name": "轮播图",
+        "detail": "轮播图",
+        "href": "v2-a-work-carousel",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept": [
+            "workbench", "page" 
+        ],
+        "schemaType": "ALCAP_PAGEING",
+        "option": [
+            {
+                "name": "config",
+                "type": "custom_component",
+                "defaultValue": {
+                    "entityId": "",
+                    "fields": {
+                        "imgField": {},
+                        "linkField": {},
+                        "sortField": {}
+                    },
+                    "nodeConfig": {
+                        "list": []
+                    },
+                    "title": "",
+                    "num": ""
+                },
+                "component": "v2-a-work-carousel-edit",
+                "desp": "实体配置",
+                "first": true,
+                "details": "实体配置"
+            },
+            {
+              "name": "page",
+              "desp": "页面",
+              "type": "string_page",
+              "defaultValue": {}
+            },
+            {
+                "name": "height",
+                "desp": "高度",
+                "type": "string_input",
+                "defaultValue": "150"
+            },
+            {
+                "name": "initialIndex",
+                "desp": "初始状态激活索引",
+                "type": "string_input",
+                "defaultValue": 0
+            },
+            {
+                "name": "interval",
+                "type": "string_input",
+                "desp": "自动切换时间间隔",
+                "defaultValue": 3000
+            },
+            {
+                "name": "autoplay",
+                "type": "boolean",
+                "desp": "是否自动切换",
+                "defaultValue": true
+            },
+            {
+                "name": "loop",
+                "type": "boolean",
+                "desp": "是否循环显示",
+                "defaultValue": true
+            },
+            {
+                "name": "type",
+                "desp": "轮播图类型",
+                "defaultValue": "",
+                "type": "string_select",
+                "valueArray": [
+                    "",
+                    "card"
+                ],
+                "despArray": [
+                    "默认",
+                    "卡片"
+                ]
+            },
+            {
+                "name": "direction",
+                "desp": "轮播图展示方向",
+                "defaultValue": "horizontal",
+                "type": "string_select",
+                "valueArray": [
+                    "horizontal",
+                    "vertical"
+                ],
+                "despArray": [
+                    "水平",
+                    "垂直"
+                ]
+            },
+            {
+                "name": "trigger",
+                "desp": "指示器触发方式",
+                "defaultValue": "hover",
+                "type": "string_select",
+                "valueArray": [
+                    "hover",
+                    "click"
+                ],
+                "despArray": [
+                    "Hover",
+                    "Click"
+                ]
+            },
+            {
+                "name": "indicatorPosition",
+                "desp": "指示器的位置",
+                "defaultValue": "",
+                "type": "string_select",
+                "valueArray": [
+                    "",
+                    "outside",
+                    "none"
+                ],
+                "despArray": [
+                    "内部",
+                    "外部",
+                    "不显示"
+                ]
+            },
+            {
+                "name": "arrow",
+                "desp": "箭头显示时机",
+                "defaultValue": "hover",
+                "type": "string_select",
+                "valueArray": [
+                    "hover",
+                    "always",
+                    "never"
+                ],
+                "despArray": [
+                    "Hover",
+                    "Always",
+                    "Never"
+                ]
+            }
+        ],
+        "slot": [],
+        "events": []
+    },
+    "main": "index.vue",
+    "noUse": false,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "lvchengzhang@agree.com.cn",
+    "license": "ISC",
+    "name": "@alcap-component/v2-a-work-carousel",
+    "version": "1.0.0",
+    "description": "轮播图"
+}

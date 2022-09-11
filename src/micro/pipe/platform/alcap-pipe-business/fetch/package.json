@@ -1,0 +1,25 @@
+{
+    "name": "@v2-pipe/fetch",
+    "main": "index.js",
+    "docs": {
+        "desp": "数据请求",
+        "name": "fetch",
+        "icon": "",
+        "category": "api",
+        "label": "",
+        "labelType": "front",
+        "belongTo": "function",
+        "hasReturn": false,
+        "returnValue": {
+            "name": "",
+            "desp": "",
+            "details": "",
+            "type": "string",
+            "defaultValue": ""
+        },
+        "params": []
+    },
+    "category": "api",
+    "description": "数据请求",
+    "version": "6.0.0"
+}

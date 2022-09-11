@@ -1,0 +1,13 @@
+
+./dist
+.history
+node_modules
+_test/
+.history
+webidelib/lock/**
+config/assets/**
+src/views/test/
+webidelib/img/test/
+yarn.lock
+micro.pro/dist/
+.DS_Store

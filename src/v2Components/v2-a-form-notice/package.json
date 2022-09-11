@@ -1,0 +1,67 @@
+{
+  "docs": {
+    "name": "须知",
+    "detail": "须知",
+    "href": "v2-a-form-notice",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": [
+      "page"
+    ],
+    "schemaType": "contentString",
+    "option": [
+      {
+        "name": "textarea",
+        "desp": "文本内容",
+        "defaultValue": "",
+        "type": "textarea",
+        "details": "文本内容"
+      },
+      {
+        "name": "value",
+        "desp": "确认",
+        "type": "string_input",
+        "details": "确认",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "dialogContent",
+        "desp": "弹窗内容",
+        "type": "textarea",
+        "details": "弹窗内容",
+        "defaultValue": ""
+      },
+      {
+        "name": "title",
+        "desp": "协议名称",
+        "type": "string_input",
+        "details": "协议名称",
+        "defaultValue": "汇款须知"
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "width": "100%",
+      "height": "300px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-form-notice",
+  "version": "1.0.0",
+  "description": "须知"
+}

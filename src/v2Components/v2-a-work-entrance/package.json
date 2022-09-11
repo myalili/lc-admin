@@ -1,0 +1,29 @@
+{
+  "docs": {
+        "name": "快捷入口",
+        "detail": "快捷入口",
+        "href": "v2-a-work-entrance",
+        "__wrapper": "v2cpt",
+        "type": "work",
+        "icon": "icontongyong",
+        "accept":[ "workbench", "page" ],
+        "option": [
+          {
+            "type": "custom_component",
+            "name": "config",
+            "defaultValue": {
+              "pages": []
+            },
+            "component": "v2-a-work-entrance-edit",
+            "desp": "自定义配置",
+            "first": true,
+            "details": "自定义配置"
+        }
+        ],
+        "slot": [],
+        "events": []
+  },
+  "description": "快捷入口",
+  "name": "@alcap-component/v2-a-work-entrance",
+  "version": "1.0.0"
+}

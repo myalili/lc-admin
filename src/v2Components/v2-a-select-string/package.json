@@ -1,0 +1,67 @@
+{
+  "docs": {
+    "name": "下拉选择字符串",
+    "detail": "下拉选择字符串",
+    "href": "v2-a-select-string",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "schemaType": "contentString",
+    "option": [
+      {
+        "name": "value",
+        "desp": "选择框内容",
+        "type": "string_input",
+        "details": "选择框内容",
+        "defaultValue": "",
+        "sync": true
+      },
+      {
+        "name": "entityId",
+        "codeLessType":"dto",
+        "desp": "实体",
+        "type": "string_dto",
+        "details": "实体",
+        "defaultValue": ""
+      },
+      {
+        "name": "label",
+        "codeLessType":"label",
+        "desp": "显示字段",
+        "type": "string_label",
+        "details": "显示字段",
+        "defaultValue": ""
+      },
+      {
+        "name": "labelValue",
+        "codeLessType":"labelValue",
+        "desp": "显示字段值",
+        "type": "string_input",
+        "details": "显示字段值",
+        "defaultValue": ""
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-select-string",
+  "version": "1.0.0",
+  "description": "下拉选择字符串"
+}

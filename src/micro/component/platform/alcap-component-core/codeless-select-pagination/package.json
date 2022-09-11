@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-select-pagination",
+	"version": "1.0.0",
+	"description": "分页选择框",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "分页选择框",
+		"href": "codeless-select-pagination",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

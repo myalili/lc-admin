@@ -1,0 +1,27 @@
+{
+	"name": "@micro-component-plaform/codeless-search-input",
+	"version": "1.0.0",
+	"description": "搜索输入框",
+	"keywords": [],
+	"main": "index.vue",
+	"scripts": {},
+	"author": "",
+	"platform": "*",
+	"project": "*",
+	"category": "core",
+	"docs": {
+		"__wrapper": "v2cpt",
+		"name": "搜索输入框",
+		"href": "codeless-search-input",
+		"author": "",
+		"icon": "",
+		"option": [],
+		"defaultOptions": [],
+		"events": [],
+		"slot": [],
+		"css": {}
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"license": "ISC"
+}

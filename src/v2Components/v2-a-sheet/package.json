@@ -1,0 +1,40 @@
+{
+  "docs": {
+    "name": "excel表格",
+    "detail": "excel表格",
+    "href": "v2-a-sheet",
+    "__wrapper": "v2cpt",
+    "type": "preset",
+    "icon": "icontongyong",
+    "schemaType": "",
+    "accept": [
+      "page"
+    ],
+    "option": [
+      {
+        "name": "entityId",
+        "desp": "实体",
+        "type": "string_dto",
+        "exclude": [ "data_factory" ],
+        "details": "实体",
+        "defaultValue": ""
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-sheet",
+  "version": "1.0.0",
+  "description": "excel表格"
+}

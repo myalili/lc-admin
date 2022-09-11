@@ -1,0 +1,77 @@
+{
+  "docs": {
+    "name": "标签页",
+    "detail": "标签页",
+    "href": "v2-a-tabs",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": [
+      "page",
+      "workbench"
+    ],
+    "schemaType": "ALCAP_LIST",
+    "option": [
+      {
+        "type": "string_input",
+        "name": "value",
+        "defaultValue": "",
+        "desp": "当前激活",
+        "first": true,
+        "details": "常和切换容器一起使用，绑定页面码数"
+      },
+      {
+        "type": "array_page",
+        "noPageType": true,
+        "name": "tabList",
+        "desp": "渲染页面",
+        "defaultValue": []
+      },
+      {
+        "type": "string_select",
+        "name": "type",
+        "defaultValue": "card",
+        "desp": "风格类型",
+        "doc": "#",
+        "valueArray": [
+          "",
+          "card",
+          "border-card"
+        ],
+        "despArray": [
+          "默认",
+          "卡片",
+          "下划线卡片"
+        ]
+      },
+      {
+        "type": "string_select",
+        "name": "tabPosition",
+        "defaultValue": "top",
+        "desp": "选项卡位置",
+        "doc": "#",
+        "valueArray": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "despArray": [
+          "上",
+          "右",
+          "下",
+          "左"
+        ]
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+  "description": "标签页",
+  "name": "@alcap-component/v2-a-tabs",
+  "version": "1.0.0"
+}

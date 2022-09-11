@@ -1,0 +1,54 @@
+{
+  "docs": {
+    "name": "表格",
+    "detail": "表格",
+    "href": "v2-a-table",
+    "__wrapper": "v2cpt",
+    "type": "base",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "schemaType": "ALCAP_PAGEING",
+    "option": [
+      {
+        "name": "entityId",
+        "desp": "数据实体id",
+        "type": "string_dto",
+        "details": "数据实体id",
+        "defaultValue": ""
+      }
+    ],
+    "slot": [
+      {
+        "name": "name",
+        "desc": "自定义文本",
+        "limit": 1,
+        "type": [
+          "none",
+          "text",
+          "icon",
+          "component",
+          "custom"
+        ],
+        "slotScope": "$scope,text",
+        "scopeDesc": "scope描述",
+        "props": [
+          "type",
+          "width",
+          "index",
+          "column-key"
+        ]
+      }
+    ],
+    "events": []
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-table",
+  "version": "1.0.0",
+  "description": "表格"
+}

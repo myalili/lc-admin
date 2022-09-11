@@ -1,0 +1,18 @@
+{
+	"name": "@micro-page/departmentManagement",
+	"version": "1.0.0",
+	"description": "部门",
+	"main": "index.vue",
+	"keywords": [
+		""
+	],
+	"category": "page",
+	"author": "zenglingjiang",
+	"screenshots": [
+		""
+	],
+	"license": "ISC",
+	"dependencies": {
+		"@v2-lib/vue.spa.plugin": "^8.0.1"
+	}
+}

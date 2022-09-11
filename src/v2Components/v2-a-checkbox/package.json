@@ -1,0 +1,100 @@
+{
+  "docs": {
+    "name": "复选框",
+    "detail": "复选框",
+    "href": "v2-a-checkbox",
+    "__wrapper": "v2cpt",
+    "type": "form",
+    "icon": "icontongyong",
+    "accept": ["page"],
+    "schemaType": "ALCAP_LIST",
+    "option": [
+      {
+        "name": "checkboxType",
+        "desp": "样式",
+        "codeLessType":"handleChange",
+        "defaultValue": "el-checkbox",
+        "type": "string_select",
+        "doc": "#",
+        "valueArray": [
+          "el-checkbox",
+          "el-checkbox-button"
+        ],
+        "despArray": [
+          "初始",
+          "按钮"
+        ]
+      },
+      {
+        "name": "dataSource",
+        "desp": "数据源",
+        "codeLessType":"handleChange",
+        "defaultValue": "entityId",
+        "type": "string_select",
+        "doc": "#",
+        "valueArray": [
+          "entityId",
+          "enumCode"
+        ],
+        "despArray": [
+          "实体",
+          "枚举"
+        ]
+      },
+      {
+        "name": "enumCode",
+        "codeLessType":"enum",
+        "desp": "枚举数据源",
+        "type": "string_code",
+        "details": "枚举数据源",
+        "defaultValue": ""
+      },
+      {
+        "name": "entityId",
+        "codeLessType":"dto",
+        "desp": "实体",
+        "type": "string_dto",
+        "exclude": [ "data_factory" ],
+        "details": "实体",
+        "defaultValue": ""
+      },
+      {
+        "name": "label",
+        "codeLessType":"label",
+        "desp": "显示字段",
+        "type": "string_label",
+        "details": "显示字段",
+        "defaultValue": ""
+      },
+      {
+        "name": "labelValue",
+        "codeLessType":"labelValue",  
+        "desp": "显示字段值",
+        "type": "string_label",
+        "details": "显示字段值",
+        "defaultValue": ""
+      },
+      {
+        "name": "syncParam",
+        "desp": "",
+        "details": "",
+        "defaultValue": {}
+      }
+    ],
+    "slot": [],
+    "events": [],
+    "style": {
+      "height": "30px"
+    }
+  },
+  "main": "index.vue",
+  "noUse": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangzexin01@agree.com.cn",
+  "license": "ISC",
+  "name": "@alcap-component/v2-a-checkbox",
+  "version": "1.0.0",
+  "description": "复选框"
+}
